@@ -1,0 +1,24 @@
+{
+  "name": "easycrud",
+  "version": "1.0.0",
+  "description": "Middleware for handling CRUD operations using Mongoose Schemas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "middleware",
+    "express",
+    "locomotive"
+  ],
+  "author": "Leandro Garber",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "walk": "~2.3.9",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "mongoose": "~4.5.8"
+  }
+}

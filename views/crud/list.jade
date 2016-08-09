@@ -1,0 +1,43 @@
+extends ../layout.jade
+
+block content
+	div#easycrudList
+		
+		h1 
+			span.glyphicon.glyphicon-th-list
+			span= "Listado de " + modelName + "s"
+		button.create
+			span.glyphicon.glyphicon-plus
+			span Nuevo
+		button.back
+			span.glyphicon.glyphicon-chevron-left
+			span Volver
+			
+		div.clear
+			
+		if rows
+			table.table.table-hover
+				thead
+					tr
+						each field in modelFields
+							th= field
+						th.actions Acciones
+				tbody
+					each row in rows
+						tr(data-id= row._id.toString() )
+							each field in modelFields
+								td= row[field]
+							td.actions
+								button.edit
+									span.glyphicon.glyphicon-pencil
+								button.delete
+									span.glyphicon.glyphicon-remove
+		button.create.bottom
+			span.glyphicon.glyphicon-plus
+			span Nuevo
+		button.back.bottom
+			span.glyphicon.glyphicon-chevron-left
+			span Volver
+
+append scripts
+	script(src="easycrud/js/list.js")

@@ -1,0 +1,604 @@
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.dl-horizontal dd:after,
+.form-horizontal .form-group:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+h1 span.glyphicon,
+button.create span.glyphicon,
+button.back span.glyphicon {
+  margin-right: 0.5em;
+}
+#easycrudForm label {
+  text-transform: capitalize;
+}
+#easycrudForm .actions {
+  float: right;
+}
+#easycrudForm #btnSave {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #3e8f3e;
+}
+#easycrudForm #btnSave:focus,
+#easycrudForm #btnSave:active:focus,
+#easycrudForm #btnSave.active:focus,
+#easycrudForm #btnSave.focus,
+#easycrudForm #btnSave:active.focus,
+#easycrudForm #btnSave.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#easycrudForm #btnSave:hover,
+#easycrudForm #btnSave:focus,
+#easycrudForm #btnSave.focus {
+  color: #333333;
+  text-decoration: none;
+}
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudForm #btnSave.disabled,
+#easycrudForm #btnSave[disabled],
+fieldset[disabled] #easycrudForm #btnSave {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active {
+  background-image: none;
+}
+#easycrudForm #btnSave:hover,
+#easycrudForm #btnSave:focus,
+#easycrudForm #btnSave.focus,
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active,
+.open > .dropdown-toggle#easycrudForm #btnSave {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active,
+.open > .dropdown-toggle#easycrudForm #btnSave {
+  background-image: none;
+}
+#easycrudForm #btnSave.disabled,
+#easycrudForm #btnSave[disabled],
+fieldset[disabled] #easycrudForm #btnSave,
+#easycrudForm #btnSave.disabled:hover,
+#easycrudForm #btnSave[disabled]:hover,
+fieldset[disabled] #easycrudForm #btnSave:hover,
+#easycrudForm #btnSave.disabled:focus,
+#easycrudForm #btnSave[disabled]:focus,
+fieldset[disabled] #easycrudForm #btnSave:focus,
+#easycrudForm #btnSave.disabled.focus,
+#easycrudForm #btnSave[disabled].focus,
+fieldset[disabled] #easycrudForm #btnSave.focus,
+#easycrudForm #btnSave.disabled:active,
+#easycrudForm #btnSave[disabled]:active,
+fieldset[disabled] #easycrudForm #btnSave:active,
+#easycrudForm #btnSave.disabled.active,
+#easycrudForm #btnSave[disabled].active,
+fieldset[disabled] #easycrudForm #btnSave.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#easycrudForm #btnSave .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudForm #btnSave .badge {
+  text-shadow: none;
+}
+#easycrudForm #btnSave:hover,
+#easycrudForm #btnSave:focus {
+  background-color: #419641;
+  background-position: 0 -15px;
+}
+#easycrudForm #btnSave:active,
+#easycrudForm #btnSave.active {
+  background-color: #419641;
+  border-color: #3e8f3e;
+}
+#easycrudForm #btnSave:disabled,
+#easycrudForm #btnSave[disabled] {
+  background-color: #419641;
+  background-image: none;
+}
+#easycrudList .clear {
+  clear: both;
+}
+#easycrudList h1 {
+  float: left;
+}
+#easycrudList button.create,
+#easycrudList button.back {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 25px;
+  margin-right: 10px;
+  float: right;
+}
+#easycrudList button.create:focus,
+#easycrudList button.back:focus,
+#easycrudList button.create:active:focus,
+#easycrudList button.back:active:focus,
+#easycrudList button.create.active:focus,
+#easycrudList button.back.active:focus,
+#easycrudList button.create.focus,
+#easycrudList button.back.focus,
+#easycrudList button.create:active.focus,
+#easycrudList button.back:active.focus,
+#easycrudList button.create.active.focus,
+#easycrudList button.back.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#easycrudList button.create:hover,
+#easycrudList button.back:hover,
+#easycrudList button.create:focus,
+#easycrudList button.back:focus,
+#easycrudList button.create.focus,
+#easycrudList button.back.focus {
+  color: #333333;
+  text-decoration: none;
+}
+#easycrudList button.create:active,
+#easycrudList button.back:active,
+#easycrudList button.create.active,
+#easycrudList button.back.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudList button.create.disabled,
+#easycrudList button.back.disabled,
+#easycrudList button.create[disabled],
+#easycrudList button.back[disabled],
+fieldset[disabled] #easycrudList button.create,
+fieldset[disabled] #easycrudList button.back {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#easycrudList button.create:active,
+#easycrudList button.back:active,
+#easycrudList button.create.active,
+#easycrudList button.back.active {
+  background-image: none;
+}
+#easycrudList button.create.bottom,
+#easycrudList button.back.bottom {
+  margin-top: 0;
+}
+#easycrudList button.create {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #3e8f3e;
+}
+#easycrudList button.create:hover,
+#easycrudList button.create:focus,
+#easycrudList button.create.focus,
+#easycrudList button.create:active,
+#easycrudList button.create.active,
+.open > .dropdown-toggle#easycrudList button.create {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#easycrudList button.create:active,
+#easycrudList button.create.active,
+.open > .dropdown-toggle#easycrudList button.create {
+  background-image: none;
+}
+#easycrudList button.create.disabled,
+#easycrudList button.create[disabled],
+fieldset[disabled] #easycrudList button.create,
+#easycrudList button.create.disabled:hover,
+#easycrudList button.create[disabled]:hover,
+fieldset[disabled] #easycrudList button.create:hover,
+#easycrudList button.create.disabled:focus,
+#easycrudList button.create[disabled]:focus,
+fieldset[disabled] #easycrudList button.create:focus,
+#easycrudList button.create.disabled.focus,
+#easycrudList button.create[disabled].focus,
+fieldset[disabled] #easycrudList button.create.focus,
+#easycrudList button.create.disabled:active,
+#easycrudList button.create[disabled]:active,
+fieldset[disabled] #easycrudList button.create:active,
+#easycrudList button.create.disabled.active,
+#easycrudList button.create[disabled].active,
+fieldset[disabled] #easycrudList button.create.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#easycrudList button.create .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+#easycrudList button.create:active,
+#easycrudList button.create.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudList button.create .badge {
+  text-shadow: none;
+}
+#easycrudList button.create:hover,
+#easycrudList button.create:focus {
+  background-color: #419641;
+  background-position: 0 -15px;
+}
+#easycrudList button.create:active,
+#easycrudList button.create.active {
+  background-color: #419641;
+  border-color: #3e8f3e;
+}
+#easycrudList button.create:disabled,
+#easycrudList button.create[disabled] {
+  background-color: #419641;
+  background-image: none;
+}
+#easycrudList td {
+  vertical-align: middle;
+}
+#easycrudList td.actions {
+  width: 105px;
+}
+#easycrudList td.actions button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#easycrudList td.actions button:focus,
+#easycrudList td.actions button:active:focus,
+#easycrudList td.actions button.active:focus,
+#easycrudList td.actions button.focus,
+#easycrudList td.actions button:active.focus,
+#easycrudList td.actions button.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#easycrudList td.actions button:hover,
+#easycrudList td.actions button:focus,
+#easycrudList td.actions button.focus {
+  color: #333333;
+  text-decoration: none;
+}
+#easycrudList td.actions button:active,
+#easycrudList td.actions button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudList td.actions button.disabled,
+#easycrudList td.actions button[disabled],
+fieldset[disabled] #easycrudList td.actions button {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#easycrudList td.actions button:active,
+#easycrudList td.actions button.active {
+  background-image: none;
+}
+#easycrudList td.actions button.edit {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-image: -webkit-linear-gradient(top, #337ab7 0%, #265a88 100%);
+  background-image: -o-linear-gradient(top, #337ab7 0%, #265a88 100%);
+  background-image: linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #245580;
+}
+#easycrudList td.actions button.edit:hover,
+#easycrudList td.actions button.edit:focus,
+#easycrudList td.actions button.edit.focus,
+#easycrudList td.actions button.edit:active,
+#easycrudList td.actions button.edit.active,
+.open > .dropdown-toggle#easycrudList td.actions button.edit {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+#easycrudList td.actions button.edit:active,
+#easycrudList td.actions button.edit.active,
+.open > .dropdown-toggle#easycrudList td.actions button.edit {
+  background-image: none;
+}
+#easycrudList td.actions button.edit.disabled,
+#easycrudList td.actions button.edit[disabled],
+fieldset[disabled] #easycrudList td.actions button.edit,
+#easycrudList td.actions button.edit.disabled:hover,
+#easycrudList td.actions button.edit[disabled]:hover,
+fieldset[disabled] #easycrudList td.actions button.edit:hover,
+#easycrudList td.actions button.edit.disabled:focus,
+#easycrudList td.actions button.edit[disabled]:focus,
+fieldset[disabled] #easycrudList td.actions button.edit:focus,
+#easycrudList td.actions button.edit.disabled.focus,
+#easycrudList td.actions button.edit[disabled].focus,
+fieldset[disabled] #easycrudList td.actions button.edit.focus,
+#easycrudList td.actions button.edit.disabled:active,
+#easycrudList td.actions button.edit[disabled]:active,
+fieldset[disabled] #easycrudList td.actions button.edit:active,
+#easycrudList td.actions button.edit.disabled.active,
+#easycrudList td.actions button.edit[disabled].active,
+fieldset[disabled] #easycrudList td.actions button.edit.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#easycrudList td.actions button.edit .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+#easycrudList td.actions button.edit:active,
+#easycrudList td.actions button.edit.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudList td.actions button.edit .badge {
+  text-shadow: none;
+}
+#easycrudList td.actions button.edit:hover,
+#easycrudList td.actions button.edit:focus {
+  background-color: #265a88;
+  background-position: 0 -15px;
+}
+#easycrudList td.actions button.edit:active,
+#easycrudList td.actions button.edit.active {
+  background-color: #265a88;
+  border-color: #245580;
+}
+#easycrudList td.actions button.edit:disabled,
+#easycrudList td.actions button.edit[disabled] {
+  background-color: #265a88;
+  background-image: none;
+}
+#easycrudList td.actions button.delete {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+  background-image: -o-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+  background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #b92c28;
+}
+#easycrudList td.actions button.delete:hover,
+#easycrudList td.actions button.delete:focus,
+#easycrudList td.actions button.delete.focus,
+#easycrudList td.actions button.delete:active,
+#easycrudList td.actions button.delete.active,
+.open > .dropdown-toggle#easycrudList td.actions button.delete {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+#easycrudList td.actions button.delete:active,
+#easycrudList td.actions button.delete.active,
+.open > .dropdown-toggle#easycrudList td.actions button.delete {
+  background-image: none;
+}
+#easycrudList td.actions button.delete.disabled,
+#easycrudList td.actions button.delete[disabled],
+fieldset[disabled] #easycrudList td.actions button.delete,
+#easycrudList td.actions button.delete.disabled:hover,
+#easycrudList td.actions button.delete[disabled]:hover,
+fieldset[disabled] #easycrudList td.actions button.delete:hover,
+#easycrudList td.actions button.delete.disabled:focus,
+#easycrudList td.actions button.delete[disabled]:focus,
+fieldset[disabled] #easycrudList td.actions button.delete:focus,
+#easycrudList td.actions button.delete.disabled.focus,
+#easycrudList td.actions button.delete[disabled].focus,
+fieldset[disabled] #easycrudList td.actions button.delete.focus,
+#easycrudList td.actions button.delete.disabled:active,
+#easycrudList td.actions button.delete[disabled]:active,
+fieldset[disabled] #easycrudList td.actions button.delete:active,
+#easycrudList td.actions button.delete.disabled.active,
+#easycrudList td.actions button.delete[disabled].active,
+fieldset[disabled] #easycrudList td.actions button.delete.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#easycrudList td.actions button.delete .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+#easycrudList td.actions button.delete:active,
+#easycrudList td.actions button.delete.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#easycrudList td.actions button.delete .badge {
+  text-shadow: none;
+}
+#easycrudList td.actions button.delete:hover,
+#easycrudList td.actions button.delete:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px;
+}
+#easycrudList td.actions button.delete:active,
+#easycrudList td.actions button.delete.active {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+}
+#easycrudList td.actions button.delete:disabled,
+#easycrudList td.actions button.delete[disabled] {
+  background-color: #c12e2a;
+  background-image: none;
+}
+#easycrudList th {
+  text-transform: capitalize;
+}

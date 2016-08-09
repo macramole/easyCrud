@@ -1,0 +1,25 @@
+extends ../layout.jade
+
+block content
+	div#easycrudForm
+		if operation == "create"
+			h1
+				span.glyphicon.glyphicon-pencil
+				span= "Nuevo " + modelName
+		else
+			h1
+				span.glyphicon.glyphicon-pencil
+				span= "Editar " + modelName
+		form(method="post")
+			each field in fields
+				div.form-group
+					label= field.name + ":"
+					!= templateRender(field.field.view, {"field" : field})
+			if operation == "edit"
+				input(type="hidden", name="id", value=id)
+			div.actions
+				button#btnSave Guardar
+				button.btn#btnCancel(type="button") Cancelar
+
+append scripts
+	script(src="easycrud/js/form.js")

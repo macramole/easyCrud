@@ -1,0 +1,75 @@
+// out: ../css/easycrud.css, sourcemap: true, compress: false
+@import (reference) "mixins/bootstrap/bootstrap.less";
+@import "mixins/lesshat-prefixed.less";
+
+h1, button.create, button.back {
+	span.glyphicon {
+		margin-right: 0.5em;
+	}
+}
+
+
+#easycrudForm {
+	label {
+		text-transform: capitalize;
+	}
+
+	.actions {
+		float: right;
+	}
+	#btnSave {
+		.btn();
+		.btn-success();
+	}
+}
+
+#easycrudList {
+	.clear {
+		clear: both;
+	}
+
+	h1 {
+		float: left;
+	}
+
+	button.create, button.back {
+		.btn();
+
+		margin-top: 25px;
+		margin-right: 10px;
+		float: right;
+
+		&.bottom {
+			margin-top: 0;
+		}
+	}
+
+	button.create {
+		.btn-success();
+	}
+
+	td {
+		vertical-align: middle;
+
+		&.actions {
+			width: 105px;
+
+			button {
+				.btn();
+
+				&.edit {
+					.btn-primary();
+				}
+				&.delete {
+					.btn-danger();
+				}
+			}
+		}
+	}
+
+	th {
+		text-transform: capitalize;
+	}
+
+
+}
